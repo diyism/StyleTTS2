@@ -1,7 +1,7 @@
     $ git clone https://github.com/diyism/StyleTTS2
     $ cd StyleTTS2
     $ mkdir -p Models/LJSpeech
-    $ wget -P Models/LJSpeech/ https://huggingface.co/yl4579/StyleTTS2-LJSpeech/resolve/main/Models/LJSpeech/epoch_2nd_00100.pth
+    $ aria2c -d Models/LJSpeech -o epoch_2nd_00100.pth https://huggingface.co/yl4579/StyleTTS2-LJSpeech/resolve/main/Models/LJSpeech/epoch_2nd_00100.pth
     $ wget -P Models/LJSpeech/ https://huggingface.co/yl4579/StyleTTS2-LJSpeech/resolve/main/Models/LJSpeech/config.yml
     $ pip install jupyter
     $ cd Demo
