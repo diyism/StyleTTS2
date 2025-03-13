@@ -7,6 +7,8 @@
     $ cd Demo
     $ jupyter notebook
 
+    but Demo/Inference_LJSpeech.ipynb happens pandas numpy problem(ValueError: numpy.dtype size changed, may indicate binary incompatibility. Expected 96 from C header, got 88 from PyObject)
+
 # StyleTTS 2: Towards Human-Level Text-to-Speech through Style Diffusion and Adversarial Training with Large Speech Language Models
 
 ### Yinghao Aaron Li, Cong Han, Vinay S. Raghavan, Gavin Mischler, Nima Mesgarani
