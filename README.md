@@ -1,3 +1,12 @@
+    $ git clone https://github.com/diyism/StyleTTS2
+    $ cd StyleTTS2
+    $ mkdir -p Models/LJSpeech
+    $ wget -P Models/LJSpeech/ https://huggingface.co/yl4579/StyleTTS2-LJSpeech/resolve/main/Models/LJSpeech/epoch_2nd_00100.pth
+    $ wget -P Models/LJSpeech/ https://huggingface.co/yl4579/StyleTTS2-LJSpeech/resolve/main/Models/LJSpeech/config.yml
+    $ pip install jupyter
+    $ cd Demo
+    $ jupyter notebook
+
 # StyleTTS 2: Towards Human-Level Text-to-Speech through Style Diffusion and Adversarial Training with Large Speech Language Models
 
 ### Yinghao Aaron Li, Cong Han, Vinay S. Raghavan, Gavin Mischler, Nima Mesgarani
